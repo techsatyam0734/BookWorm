@@ -2,7 +2,6 @@
 
 BookWorm is a full-stack, cross-platform app where book lovers can share and discover book recommendations. It runs on iOS, Android and the web from a single React Native (Expo) codebase and is backed by a Node.js, Express and MongoDB REST API with secure JWT authentication.
 
-<!-- Add a banner or app screenshot here --> <!-- ![BookWorm](./screenshots/banner.png) -->
 ✨ Features
 🔐 Complete authentication – signup, login and logout
 🔒 JWT authentication – secure user sessions
@@ -21,20 +20,20 @@ Frontend	React Native, Expo, JavaScript
 Backend	Node.js, Express.js
 Database	MongoDB
 Auth	JSON Web Tokens (JWT)
-API Testing	Postman
-📸 Screenshots
-<!-- Replace with your own screenshots -->
-Login	Home	Create	Profile
-Show Image	Show Image	Show Image	Show Image
+
 🚀 Getting Started
-Prerequisites
+
+Prerequisites:-
+
 Node.js (v18 or later recommended)
 A MongoDB database (local or Atlas)
 Expo Go app on your phone (optional, for testing on a device)
+
 1. Clone the repository
 bash
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
+
 2. Set up the backend
 bash
 cd backend
@@ -48,9 +47,8 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
 Start the server:
+bash :- npm run dev
 
-bash
-npm run dev
 3. Set up the mobile app
 bash
 cd mobile
@@ -94,9 +92,8 @@ The REST API was tested manually with Postman.
 Likes and comments on recommendations
 Search and filter by genre or author
 Edit existing recommendations
-👤 Author
 
-Satyam Tiwari
+👤 Author :- Satyam Tiwari
 
 GitHub: @techsatyam0734
 Email: satyamtiwari0734@gmail.com
